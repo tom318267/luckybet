@@ -9,7 +9,7 @@ const Homepage = () => {
         src={luckybet}
         alt="luckybet"
       />
-      <div>
+      <div className="relative bottom-20">
         <button className="p-2 px-6 bg-red mr-2 sm:mr-4 rounded-full text-lg text-white font-race">
           Sign Up
         </button>
