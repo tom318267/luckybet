@@ -3,8 +3,12 @@ import luckybet from "../assets/luckybet.svg";
 
 const Homepage = () => {
   return (
-    <div className="w-screen h-screen bg-black flex flex-col justify-center items-center border-b-2">
-      <img className="w-3/4 object-contain" src={luckybet} alt="luckybet" />
+    <div className="Homepage w-screen h-screen bg-black flex flex-col justify-center items-center">
+      <img
+        className="w-3/4 md:w-1/2 object-contain"
+        src={luckybet}
+        alt="luckybet"
+      />
       <div>
         <button className="p-2 px-6 bg-red mr-2 sm:mr-4 rounded-full text-lg text-white font-race">
           Sign Up
