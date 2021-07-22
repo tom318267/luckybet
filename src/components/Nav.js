@@ -9,7 +9,7 @@ const Nav = () => {
           <h3 className="text-white mr-4 sm:mr-6 text-xs sm:text-lg cursor-pointer">
             Home
           </h3>
-          <h3 className="text-white text-xs sm:text-lg cursor-pointer">
+          <h3 className="text-white mr-4 text-xs sm:text-lg cursor-pointer">
             Casino
           </h3>
         </div>
