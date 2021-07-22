@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import casino from "../assets/casino.svg";
 import chips from "../assets/chips.svg";
 import horses from "../assets/horses.svg";
 import CasinoDetails from "./CasinoDetails";
+import Aos from "aos";
 
 const CasinoSection = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="bg-black">
       <CasinoDetails

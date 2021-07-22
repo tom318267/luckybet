@@ -5,7 +5,7 @@ const Homepage = () => {
   return (
     <div className="Homepage w-screen h-screen bg-black flex flex-col justify-center items-center">
       <img
-        className="w-3/4 md:w-1/2 object-contain"
+        className="w-3/4 md: max-w-md object-contain animate__animated animate__bounceInUp"
         src={luckybet}
         alt="luckybet"
       />
