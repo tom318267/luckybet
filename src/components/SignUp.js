@@ -2,51 +2,26 @@ import React from "react";
 
 const SignUp = () => {
   return (
-    <div class="min-h-screen flex items-center justify-center bg-red">
-      <div class="bg-white p-10 rounded shadow-2x1 w-4/5">
-        <h2 class="text-2xl text-center font-bold font-race mb-10 text-gray-800">
-          Create Your Account
-        </h2>
-
-        <form class="space-y-5">
-          <div>
-            <label class="block mb-1 font-electro text-gray-500">Name</label>
-            <input
-              type="text"
-              class="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500"
-            />
+    <div className="bg-red flex justify-center items-center w-screen h-screen overflow-hidden">
+      <div className="w-4/5 h-1/2 flex bg-white">
+        <form className="flex flex-col justify-center items-center">
+          <h2 className="text-2xl text-center font-race mb-4">
+            Create an Account
+          </h2>
+          <div className="w-4/5 font-electro text-sm">
+            <label>Name</label>
+            <input className="border w-full mb-1" type="text" />
+            <label>Email Address</label>
+            <input className="border w-full mb-1" type="text" />
+            <label>Password</label>
+            <input className="border w-full mb-1" type="text" />
           </div>
-
-          <div>
-            <label class="block mb-1 font-electro text-gray-500">Email</label>
-            <input
-              type="email"
-              class="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500"
-            />
-          </div>
-
-          <div>
-            <label class="block mb-1 font-electro text-gray-500">
-              Password
-            </label>
-            <input
-              type="password"
-              class="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500"
-            />
-          </div>
-
-          <div class="flex items-center">
-            <input type="checkbox" id="agree" />
-            <label for="agree" class="ml-2 text-gray-700 text-sm">
-              I agree to the terms and privacy.
-            </label>
-          </div>
-
-          <div>
-            <button class="block w-full bg-red hover:bg-yellow-300 p-4 rounded text-white hover:text-yellow-800 transition duration-300">
-              Sign Up
-            </button>
-          </div>
+          <button className="p-2 bg-red text-sm text-white font-race w-4/5 mb-4">
+            Register
+          </button>
+          <p className="text-sm">
+            Already have an account? <strong className="text-red">Login</strong>
+          </p>
         </form>
       </div>
     </div>
