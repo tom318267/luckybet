@@ -20,7 +20,7 @@ const SignUp = () => {
           <button className="p-2 bg-red text-lg text-white font-race w-4/5 mb-4">
             Register
           </button>
-          <p className="text-sm font-electro">
+          <p className="text-sm font-electro md:text-lg">
             Already have an account?{" "}
             <Link to="/login">
               <strong className="text-red">Login</strong>
