@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import luckybet from "../assets/luckybet.svg";
 import CasinoSection from "./CasinoSection";
 
@@ -12,9 +13,12 @@ const Homepage = () => {
           alt="luckybet"
         />
         <div className="relative bottom-10 sm:bottom-20 font-race">
-          <button className="py-2 px-6 md:px-8 hvr-grow bg-red mr-2 sm:mr-4 rounded-full text-lg text-white">
-            Sign Up
-          </button>
+          <Link to="/register">
+            <button className="py-2 px-6 md:px-8 hvr-grow bg-red mr-2 sm:mr-4 rounded-full text-lg text-white">
+              Sign Up
+            </button>
+          </Link>
+
           <button className="py-2 px-8 md:px-10 hvr-grow bg-red rounded-full sm:text-lg text-white text-lg">
             Login
           </button>
