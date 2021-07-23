@@ -6,7 +6,7 @@ const Nav = () => {
     <div className="absolute z-10 w-full">
       <div className="flex justify-between font-race">
         <h3 className="text-white mx-4 my-2 sm:text-xl font-race">LuckyBet</h3>
-        <div className="m-3 sm:m-2 hidden sm:flex">
+        <div className="m-3 sm:m-2 hidden sm:flex font-electro font-bold">
           <Link to="/">
             <h3 className="text-white hvr-underline-from-left mr-4 sm:mr-6 text-xs sm:text-lg cursor-pointer">
               Home
