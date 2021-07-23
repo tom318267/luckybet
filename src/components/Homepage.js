@@ -11,7 +11,7 @@ const Homepage = () => {
           src={luckybet}
           alt="luckybet"
         />
-        <div className="relative bottom-10 sm:bottom-20 font-electro">
+        <div className="relative bottom-10 sm:bottom-20 font-race">
           <button className="py-2 px-6 md:px-8 hvr-grow bg-red mr-2 sm:mr-4 rounded-full text-lg text-white">
             Sign Up
           </button>
