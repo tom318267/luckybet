@@ -27,7 +27,7 @@ const SignUp = () => {
             <button className="py-2 px-2 mb-4 bg-red rounded-lg text-white font-race text-sm">
               Register
             </button>
-            <p className="font-electro sm:text-sm md:text-lg">
+            <p className="font-electro text-xs sm:text-sm md:text-lg">
               Already a member? <strong className="text-red">Login</strong>
             </p>
           </div>
