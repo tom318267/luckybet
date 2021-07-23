@@ -4,6 +4,7 @@ import Homepage from "./components/Homepage";
 import Nav from "./components/Nav";
 import "./App.scss";
 import SignUp from "./components/SignUp";
+import Login from "./components/Login";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Homepage} />
           <Route path="/register" component={SignUp} />
+          <Route path="/login" component={Login} />
         </Switch>
       </Router>
     </div>

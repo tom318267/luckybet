@@ -18,10 +18,11 @@ const Homepage = () => {
               Sign Up
             </button>
           </Link>
-
-          <button className="py-2 px-8 md:px-10 hvr-grow bg-red rounded-full sm:text-lg text-white text-lg">
-            Login
-          </button>
+          <Link to="/login">
+            <button className="py-2 px-8 md:px-10 hvr-grow bg-red rounded-full sm:text-lg text-white text-lg">
+              Login
+            </button>
+          </Link>
         </div>
       </div>
       <CasinoSection />

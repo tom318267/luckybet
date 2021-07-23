@@ -2,34 +2,50 @@ import React from "react";
 
 const SignUp = () => {
   return (
-    <div className="w-screen h-screen flex justify-center items-center bg-red">
-      <div className="w-3/4 sm:w-1/2 h-1/2 flex flex-col justify-center rounded-lg bg-white text-center">
-        <h2 className="font-race text-lg md:text-xl lg:text-2xl mb-4">
-          Sign Up
+    <div class="min-h-screen flex items-center justify-center bg-red">
+      <div class="bg-white p-10 rounded shadow-2x1 w-4/5">
+        <h2 class="text-2xl text-center font-bold font-race mb-10 text-gray-800">
+          Create Your Account
         </h2>
-        <form>
-          <div className="w-3/4 my-0 mx-auto flex flex-col">
+
+        <form class="space-y-5">
+          <div>
+            <label class="block mb-1 font-electro text-gray-500">Name</label>
             <input
-              className="form-text p-1 border mb-1 rounded-sm text-sm outline-none"
               type="text"
-              placeholder="Name"
+              class="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500"
             />
+          </div>
+
+          <div>
+            <label class="block mb-1 font-electro text-gray-500">Email</label>
             <input
-              className="border p-1 mb-1 rounded-sm text-sm outline-none"
-              type="text"
-              placeholder="Email Address"
+              type="email"
+              class="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500"
             />
+          </div>
+
+          <div>
+            <label class="block mb-1 font-electro text-gray-500">
+              Password
+            </label>
             <input
-              className="border p-1 rounded-sm text-sm mb-4 outline-none"
-              type="text"
-              placeholder="Password"
+              type="password"
+              class="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500"
             />
-            <button className="py-2 px-2 mb-4 bg-red rounded-lg text-white font-race text-sm">
-              Register
+          </div>
+
+          <div class="flex items-center">
+            <input type="checkbox" id="agree" />
+            <label for="agree" class="ml-2 text-gray-700 text-sm">
+              I agree to the terms and privacy.
+            </label>
+          </div>
+
+          <div>
+            <button class="block w-full bg-red hover:bg-yellow-300 p-4 rounded text-white hover:text-yellow-800 transition duration-300">
+              Sign Up
             </button>
-            <p className="font-electro text-xs sm:text-sm md:text-lg">
-              Already a member? <strong className="text-red">Login</strong>
-            </p>
           </div>
         </form>
       </div>
